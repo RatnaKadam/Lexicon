@@ -50,13 +50,6 @@ class Car(Vehicle):
     def horn(self):
         return f"{self.make} {self.model} goes Beep Beep Beep..."
 
-#car = Car("Mahindra","Thar",2000,4)
-# print(car)
-# print(car.doors())
-# print(car.start())
-# print(car.fuel_up())
-# print(car.horn())
-# print(car.stop())
 
 #derived class
 class Motorcycle(Vehicle):
@@ -72,14 +65,6 @@ class Motorcycle(Vehicle):
 
     def fuel_up(self):
         return f"{self.make} {self.model} is an Electric Bike."
-
-#bike = Motorcycle("Royal Enfield","Bullet",1995,1)
-# print(bike)
-# print(bike.num_side_cars())
-# print(bike.start())
-# print(bike.fuel_up())
-# print(bike.horn())
-# print(bike.stop())
 
 #derived class
 class Bicycle(Vehicle):
@@ -103,12 +88,6 @@ class Bicycle(Vehicle):
 car = Car("Mahindra","Thar",2000,4)
 bike = Motorcycle("Royal Enfield","Bullet",1995,1)
 cycle = Bicycle("Hero", "XYZ", 2024,6)
-# print(new_cycle)
-# print(new_cycle.gears())
-# print(new_cycle.start())
-# print(new_cycle.fuel_up())
-# print(new_cycle.ring_bell())
-# print(new_cycle.stop())
 
 vehicles = [car, bike, cycle]
 for vehicle in vehicles:
