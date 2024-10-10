@@ -12,13 +12,14 @@
 # method to calculate its area based on length and width.
 # Create instances of each shape type and demo
 
-#Base class
+# Base class
 class Shape:
     def area(self):
         pass
     def perimeter(self):
         pass
     
+# Derived Class
 class Circle(Shape):
     def __init__(self,radius):
         self.radius = radius
@@ -31,6 +32,7 @@ class Circle(Shape):
         perimeter_of_circle = 2*3.14*self.radius
         return f"Perimeter of circle is {perimeter_of_circle:.2f}cm"
 
+# Derived Class
 class Triangle(Shape):
     def __init__(self, base,height):
         self.base = base
@@ -40,6 +42,7 @@ class Triangle(Shape):
         area_of_triangle = self.base*self.height*0.5
         return f"The area of triagle is {area_of_triangle}sq.cm."
 
+# Derived Class
 class Square(Shape):
     def __init__(self,side):
         self.side = side
@@ -52,21 +55,10 @@ class Square(Shape):
         perimeter_of_square = 4*self.side
         return f"Perimeter of square with side {self.side}cm is {perimeter_of_square}cm "
 
-
-
+# Creating objects
 circle = Circle(10)
-# print(circle.area())
-# print(circle.perimeter())
-# print("\n")
-
 triangle = Triangle(4,6)
-# print(triangle.area())
-# print("\n")
-
 square = Square(5)
-# print(square.area())
-# print(square.perimeter())
-# print("\n")
 
 shapes = [circle,triangle,square]
 
