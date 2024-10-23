@@ -6,3 +6,4 @@ This project contains lab work given in Lexicon course.
 * SQL
 * NON-SQL
 * html
+* CSS
