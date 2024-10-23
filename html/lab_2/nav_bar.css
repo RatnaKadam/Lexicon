@@ -1,0 +1,50 @@
+    /* Style for the header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+  
+      /* Navigation bar style */
+nav {
+    display: flex;               /* Flexbox for horizontal alignment */
+    justify-content: center;      /* Center the tabs horizontally */
+    align-items: center;          /* Align tabs vertically */
+    width: 100%;
+    }
+  
+      /* Remove bullets and padding for the list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;               /* Flexbox for horizontal list */
+    }
+  
+      /* Style for each tab */
+li {
+    margin: 0 15px;
+    line-height: 40px;
+    height: 40px;              /* Spacing between tabs */
+    text-size-adjust: 24px;
+    padding: 20px;
+    }
+  
+      /* Links in the tabs */
+a {
+    display: inline-block;
+    padding: 10px 20px;          /* Set height and width */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    }
+  
+      /* Hover effect for the tabs */
+a:hover {
+        background-color: #777;
+      }
+      body{
+          background-color: gray;
+          padding: 0;
+          margin: 0;
+      }
