@@ -7,3 +7,4 @@ This project contains lab work given in Lexicon course.
 * NON-SQL
 * html
 * CSS
+* JS
