@@ -8,3 +8,5 @@ This project contains lab work given in Lexicon course.
 * html
 * CSS
 * JS
+* REST API
+  
