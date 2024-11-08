@@ -9,4 +9,4 @@ This project contains lab work given in Lexicon course.
 * CSS
 * JS
 * REST API
-  
+* Django
