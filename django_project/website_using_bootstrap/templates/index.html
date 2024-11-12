@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="header">
+    <div class="header-content">
+        <h1>Welcome to My Blog</h1>
+        <p>Insights, tips, and stories on various topics</p>
+        <a href="#featured" class="btn">Explore Featured</a>
+    </div>
+</header>
+
+<section id="featured-posts" class="featured-posts">
+    <h2>To read the blogs, go to the <a href="{% url 'blog' %}">blog page</h2>
+</section>
+
+
+<!-- Newsletter Subscription Section -->
+<section id="newsletter" class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Get the latest posts and updates directly in your inbox.</p>
+    <form class="subscription-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn">Subscribe</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+    <ul class="social-links">
+        <li><a href="https://x.com/?lang=en">X</a></li>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>
