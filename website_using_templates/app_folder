@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Template App</title>
+</head>
+<body>
+    <h1>Hello This is index.html</h1>
+    {{ insert_me }}
+</body>
+
+
+
+</html>
