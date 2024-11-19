@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog Post</title>
+    <style>
+        /* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: gray;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color:skyblue;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Content Styles */
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Post Styles */
+.blog-post {
+    padding: 1rem;
+}
+
+.post-title {
+    font-size: 2rem;
+    color: #6200ea;
+    margin-bottom: 0.5rem;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>My Blog</h1>
+    </header>
+
+    <main class="content">
+        <article class="blog-post">
+            {% block content %}
+            <h2 class="post-title">This is the base page</h2>
+            <p class="post-date">Published on: November 18, 2024</p>
+            <p class="post-content">
+            </p>
+            {% endblock %}
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
