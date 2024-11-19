@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>HomePage</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                margin: 0;
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                text-align: center;
+            }
+
+            h1 {
+                color: #333;
+                font-size: 36px;
+                margin: 0;
+                padding: 20px;
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            p {
+                margin-top: 20px; /* Add some spacing between h1 and p */
+                font-size: 18px;
+                color: #555;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to the Feedback Form</h1>
+        <p>Go to the <a href="{% url 'feedback' %}">Feedback Form</a></p>
+    </body>
+    
+</html>
